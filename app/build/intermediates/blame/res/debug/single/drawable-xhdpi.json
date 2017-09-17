@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\history_drawer.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\history_drawer.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\profile_drawer.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\profile_drawer.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\arrow_back.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\arrow_back.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\edit.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\edit.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\exit_drawer.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\exit_drawer.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\complaint_drawer.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\complaint_drawer.png"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\profile_drawer.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\profile_drawer.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\history_drawer.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\history_drawer.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\arrow_back.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\arrow_back.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\exit_drawer.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\exit_drawer.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\complaint_drawer.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\complaint_drawer.png"
+    }
+]

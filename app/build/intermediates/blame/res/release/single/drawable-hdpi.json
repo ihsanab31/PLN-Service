@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\exit_drawer.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\exit_drawer.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\arrow_back.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\arrow_back.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\edit.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\edit.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\profile_drawer.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\profile_drawer.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\complaint_drawer.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\complaint_drawer.png"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\history_drawer.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\history_drawer.png"
+    }
+]

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\iihsa\.android\build-cache\f1e12e95f8f496df48ab013b5329464f52547685\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="E:\PLNService\app\build\intermediates\pre-dexed\release\classes_3ec5b969887cc3136d02ccd1297b9aabc8e1f12a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iihsa\.android\build-cache\6e0e676ef48e584f0857121bd8939cc21575efb8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="E:\PLNService\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ae332e5b8282baf09c07f1fe3b3e368c41d8e848\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iihsa\.android\build-cache\2a0df04f7b181ebabd010bdffb4566266562bbc9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="E:\PLNService\app\build\intermediates\pre-dexed\release\classes_ed3a5411fdd5e46536d0e3082cea15cb9618bff5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iihsa\.android\build-cache\6e0e676ef48e584f0857121bd8939cc21575efb8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="E:\PLNService\app\build\intermediates\pre-dexed\release\classes_ae332e5b8282baf09c07f1fe3b3e368c41d8e848.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iihsa\.android\build-cache\996b2dffcf5604323870c29709d40ea3885d45e5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="E:\PLNService\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dbb281a8fd46c13039aa786e4a96ecf3a3707d02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iihsa\.android\build-cache\f1e12e95f8f496df48ab013b5329464f52547685\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="E:\PLNService\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3ec5b969887cc3136d02ccd1297b9aabc8e1f12a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iihsa\.android\build-cache\996b2dffcf5604323870c29709d40ea3885d45e5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="E:\PLNService\app\build\intermediates\pre-dexed\release\classes_dbb281a8fd46c13039aa786e4a96ecf3a3707d02.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iihsa\.android\build-cache\2a0df04f7b181ebabd010bdffb4566266562bbc9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="E:\PLNService\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ed3a5411fdd5e46536d0e3082cea15cb9618bff5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iihsa\.android\build-cache\cf342a6b73944e3cc44f6dd369d9c38a29bde8e2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="E:\PLNService\app\build\intermediates\pre-dexed\release\classes_d7119cf2669bcfcd05791373b473d8b026259d23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iihsa\.android\build-cache\a814f977df6a5cc24f672c3a0355f2cc1e2051e1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="E:\PLNService\app\build\intermediates\pre-dexed\release\classes_684074ed1c5c8cf9d35e44796f5fed5618c84004.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iihsa\.android\build-cache\a814f977df6a5cc24f672c3a0355f2cc1e2051e1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="E:\PLNService\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_684074ed1c5c8cf9d35e44796f5fed5618c84004\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iihsa\.android\build-cache\e0cc8ae0aa229dbd48bf92bbda4d57a26a663d1a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="E:\PLNService\app\build\intermediates\pre-dexed\release\classes_ac9b53cab1637dc4dfdb628b95eb6a8b0ff7a62e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iihsa\.android\build-cache\cf342a6b73944e3cc44f6dd369d9c38a29bde8e2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="E:\PLNService\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d7119cf2669bcfcd05791373b473d8b026259d23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iihsa\.android\build-cache\e0cc8ae0aa229dbd48bf92bbda4d57a26a663d1a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="E:\PLNService\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ac9b53cab1637dc4dfdb628b95eb6a8b0ff7a62e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iihsa\.android\build-cache\205a554f41556aef03f5952084087d87db87e9e1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="E:\PLNService\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5be105b7e8fbbf2c136cee03537472f3826b4c59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PLNService\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2a61ea72a8dcc85ff33ae84b2ee442b73a16a335">
+        <dex dex="E:\PLNService\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_55d010a958760ae966c7bbbb140879c92e887733\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PLNService\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\PLNService\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3db3f17f2994526f8be1113c71cbcab5c6aaf671\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iihsa\.android\build-cache\205a554f41556aef03f5952084087d87db87e9e1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="E:\PLNService\app\build\intermediates\pre-dexed\release\classes_5be105b7e8fbbf2c136cee03537472f3826b4c59.jar" />
+    </item>
+
+</items>

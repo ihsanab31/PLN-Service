@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/putih"
+    tools:context="com.sundevs.ihsan.plnservice.fragment.ProfileFragment">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/margin9dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_abu"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_margin="9dp"
+                    android:src="@drawable/logo"
+                    app:border_color="@color/colorPrimary"
+                    app:border_width="2dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <com.sundevs.ihsan.plnservice.util.FontLatoSemiBold
+                        android:id="@+id/fontLatoSemiBold2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/namapelanggan"
+                        android:textColor="@color/hitam"
+                        android:textSize="15dp"
+                        android:textStyle="bold|italic"
+                        android:typeface="serif" />
+
+                    <com.sundevs.ihsan.plnservice.util.FontLatoSemiBold
+                        android:id="@+id/nama"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text="@string/nama"
+                        android:textColor="@color/hitam"
+                        android:textSize="15dp"
+                        android:textStyle="bold|italic"
+                        android:typeface="serif" />
+
+                    <Button
+                        android:id="@+id/edit"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="9dp"
+                        android:drawableLeft="@drawable/edit"
+                        android:text="edit" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin30dp"
+                android:background="@drawable/btn_abu"
+                android:orientation="vertical"
+                android:padding="9dp">
+
+                <com.sundevs.ihsan.plnservice.util.FontLatoSemiBold
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tentang"
+                    android:textColor="@color/hitam"
+                    android:textSize="13dp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@color/abu_abu" />
+
+                <com.sundevs.ihsan.plnservice.util.FontLatoSemiBold
+                    android:id="@+id/alamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dots_margin_bottom20dp"
+                    android:text="@string/alamat"
+                    android:textColor="@color/hitam"
+                    android:textSize="13dp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@color/abu_abu" />
+
+                <com.sundevs.ihsan.plnservice.util.FontLatoSemiBold
+                    android:id="@+id/nohp_prof"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin9dp"
+                    android:layout_marginTop="@dimen/margin9dp"
+                    android:text="@string/nohp"
+                    android:textColor="@color/hitam"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>

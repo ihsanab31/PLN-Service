@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordintor"
+   tools:context="com.sundevs.ihsan.plnservice.view.RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/putih"
+        android:padding="9dp"
+        android:orientation="vertical">
+
+    <com.sundevs.ihsan.plnservice.util.FontLatoSemiBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/daftar"
+        android:textColor="@color/biru"
+        android:textSize="@dimen/text30dp"/>
+    <com.sundevs.ihsan.plnservice.util.FontLatoSemiBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_tampe"
+        android:layout_marginTop="@dimen/margin30dp"
+        android:textSize="@dimen/text12dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/no_tamper_register"
+        android:inputType="text"/>
+    <com.sundevs.ihsan.plnservice.util.FontLatoSemiBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_marginTop="@dimen/margin9dp"
+        android:textSize="@dimen/text12dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/password_register"/>
+    <com.sundevs.ihsan.plnservice.util.FontLatoSemiBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ulpassword"
+        android:layout_marginTop="@dimen/margin9dp"
+        android:textSize="@dimen/text12dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/ulpassword_register"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tanya2"
+        android:textSize="@dimen/text11dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding20dp"
+        android:id="@+id/daftar"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shapebiru"
+        android:text="@string/daftar"
+        android:textColor="@color/putih"/>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

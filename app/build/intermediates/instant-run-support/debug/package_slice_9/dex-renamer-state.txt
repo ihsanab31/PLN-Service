@@ -1,0 +1,4 @@
+#Fri Sep 15 21:38:34 ICT 2017
+base.0=E\:\\PLNService\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
+renamed.0=classes.dex
+file.0=E\:\\PLNService\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

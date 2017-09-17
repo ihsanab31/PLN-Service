@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="9dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/nam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_bg_edit"
+            android:hint="Nama"
+            android:inputType="text"
+            android:textSize="13sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp">
+        <EditText
+            android:id="@+id/almt"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="top"
+
+            android:background="@drawable/selector_bg_edit"
+            android:hint="Alamat"
+            android:inputType="text|textMultiLine"
+            android:textCursorDrawable="@drawable/bg_input_cursor"
+            android:textSize="13sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp">
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_bg_edit"
+            android:hint="No Hp"
+            android:inputType="number"
+            android:textCursorDrawable="@drawable/bg_input_cursor"
+            android:textSize="13sp" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

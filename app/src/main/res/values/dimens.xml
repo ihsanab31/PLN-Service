@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ukuran_gambar200dp">200dp</dimen>
+    <dimen name="ukuran_button200dp">200dp</dimen>
+    <dimen name="ukuran_gambar150dp">150dp</dimen>
+    <dimen name="text20dp">20dp</dimen>
+    <dimen name="text12dp">12dp</dimen>
+    <dimen name="text11dp">11dp</dimen>
+    <dimen name="margin9dp">9dp</dimen>
+    <dimen name="text16dp">16dp</dimen>
+    <dimen name="margin30dp">30dp</dimen>
+    <dimen name="text30dp">30dp</dimen>
+    <dimen name="padding20dp">20dp</dimen>
+    <dimen name="img_width_height120dp">120dp</dimen>
+    <dimen name="activity_horizontal_margin16dp">16dp</dimen>
+    <dimen name="activity_vertical_margin16dp">16dp</dimen>
+    <dimen name="fab_margin16dp">16dp</dimen>
+    <dimen name="dots_height30dp">30dp</dimen>
+    <dimen name="dots_margin_bottom20dp">20dp</dimen>
+    <dimen name="img_width_height120">120dp</dimen>
+    <dimen name="slide_title30dp">30dp</dimen>
+    <dimen name="slide_desc16dp">16dp</dimen>
+    <dimen name="desc_padding40dp">40dp</dimen>
+    <dimen name="nav_header_vertical_spacing16dp">16dp</dimen>
+    <dimen name="nav_header_height160">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text13dp">13dp</dimen>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="@dimen/ukuran_gambar200dp"
+            android:layout_height="@dimen/ukuran_gambar200dp"
+            android:src="@drawable/profile" />
+
+        <com.sundevs.ihsan.plnservice.util.FontLatoSemiBold
+            android:id="@+id/textView"
+            android:layout_marginTop="@dimen/margin9dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title2"
+            android:textColor="@color/hitam"
+            android:textSize="@dimen/text30dp"
+            android:textStyle="bold" />
+
+        <com.sundevs.ihsan.plnservice.util.FontLatoSemiBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/padding20dp"
+            android:paddingRight="@dimen/padding20dp"
+            android:text="@string/desikripsi2"
+            android:textAlignment="center"
+            android:textColor="@color/hitam"
+            android:textSize="@dimen/text16dp" />
+
+    </LinearLayout>
+</RelativeLayout>

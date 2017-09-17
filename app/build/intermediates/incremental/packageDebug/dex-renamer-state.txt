@@ -1,0 +1,7 @@
+#Sat Sep 16 21:58:43 ICT 2017
+base.0=E\:\\PLNService\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_55d010a958760ae966c7bbbb140879c92e887733
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\PLNService\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3db3f17f2994526f8be1113c71cbcab5c6aaf671\\classes.dex
+base.1=E\:\\PLNService\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3db3f17f2994526f8be1113c71cbcab5c6aaf671
+file.0=E\:\\PLNService\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_55d010a958760ae966c7bbbb140879c92e887733\\classes.dex

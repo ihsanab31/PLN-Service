@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">881988532525-mqrlcd5cf2q7gd4eqsp4j6j6bbmvdeso.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://pln-service.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">881988532525</string>
+    <string name="google_api_key" translatable="false">AIzaSyA9MSmfpoKg4ZdibLJQFOaMc3nJs-W_rpo</string>
+    <string name="google_app_id" translatable="false">1:881988532525:android:d3f5159a4209d769</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA9MSmfpoKg4ZdibLJQFOaMc3nJs-W_rpo</string>
+    <string name="google_storage_bucket" translatable="false">pln-service.appspot.com</string>
+</resources>

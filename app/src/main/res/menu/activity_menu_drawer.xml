@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile_drawer"
+            android:title="Profil" />
+        <item
+            android:id="@+id/keluhan"
+            android:icon="@drawable/complaint_drawer"
+            android:title="Keluhan" />
+        <item
+            android:id="@+id/riwayat"
+            android:icon="@drawable/history_drawer"
+            android:title="Riwayat" />
+        <item
+            android:id="@+id/keluar"
+            android:icon="@drawable/exit_drawer"
+            android:title="Keluar" />
+    </group>
+
+
+</menu>
