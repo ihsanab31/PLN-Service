@@ -1,4 +1,6 @@
-# PLN Sevice adalah aplikasi untuk pelanggan melaporkan gangguan yang telah terjadi, untuk memudahkan pelanggan dalam melakukan proses keluhan, yang bertujuan untuk meningkkatkan pelayanan untuk pelanggan.
+# PLN Sevice 
+  adalah aplikasi untuk pelanggan melaporkan gangguan yang telah terjadi, untuk memudahkan pelanggan dalam melakukan proses keluhan, yang bertujuan untuk meningkkatkan pelayanan untuk pelanggan.
+
 
 Aplikasi ini dikembangkan oleh Sundevs (Sima Universal Developers).
   Ihsan Abdurahman (CTO) Android Developer
