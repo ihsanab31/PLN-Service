@@ -20,12 +20,12 @@
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_history.xml",
-        "source": "E:\\PLNService\\app\\src\\main\\res\\layout\\fragment_history.xml"
-    },
-    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\a6e74fb1d5a2c826c0761ae777efab8410d009b9\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_history.xml",
+        "source": "E:\\PLNService\\app\\src\\main\\res\\layout\\fragment_history.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_splash_screen.xml",
