@@ -12,12 +12,12 @@
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\a6e74fb1d5a2c826c0761ae777efab8410d009b9\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
@@ -76,12 +76,16 @@
         "source": "E:\\PLNService\\app\\src\\main\\res\\layout\\app_bar_menu.xml"
     },
     {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slide3.xml",
+        "source": "E:\\PLNService\\app\\src\\main\\res\\layout\\slide3.xml"
+    },
+    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
         "source": "E:\\PLNService\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slide3.xml",
-        "source": "E:\\PLNService\\app\\src\\main\\res\\layout\\slide3.xml"
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_ref_top_row.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\8c71f7130fc7d29ffceef5e307c19d4b59f16a0e\\output\\res\\layout\\leak_canary_ref_top_row.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toobar_logreg.xml",
@@ -164,8 +168,8 @@
         "source": "E:\\PLNService\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu.xml",
-        "source": "E:\\PLNService\\app\\src\\main\\res\\layout\\activity_menu.xml"
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_leak_row.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\8c71f7130fc7d29ffceef5e307c19d4b59f16a0e\\output\\res\\layout\\leak_canary_leak_row.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
@@ -184,6 +188,10 @@
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\a6e74fb1d5a2c826c0761ae777efab8410d009b9\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\PLNService\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
@@ -194,6 +202,10 @@
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_heap_dump_toast.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\8c71f7130fc7d29ffceef5e307c19d4b59f16a0e\\output\\res\\layout\\leak_canary_heap_dump_toast.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -268,6 +280,10 @@
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_ref_row.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\8c71f7130fc7d29ffceef5e307c19d4b59f16a0e\\output\\res\\layout\\leak_canary_ref_row.xml"
+    },
+    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
@@ -286,5 +302,9 @@
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_display_leak.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\8c71f7130fc7d29ffceef5e307c19d4b59f16a0e\\output\\res\\layout\\leak_canary_display_leak.xml"
     }
 ]

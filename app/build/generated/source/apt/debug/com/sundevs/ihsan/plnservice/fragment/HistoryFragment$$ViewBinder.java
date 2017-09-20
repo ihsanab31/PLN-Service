@@ -8,12 +8,12 @@ import butterknife.ButterKnife.ViewBinder;
 public class HistoryFragment$$ViewBinder<T extends com.sundevs.ihsan.plnservice.fragment.HistoryFragment> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131624095, "field 'coordinatorLayout'");
-    target.coordinatorLayout = finder.castView(view, 2131624095, "field 'coordinatorLayout'");
-    view = finder.findRequiredView(source, 2131624096, "field 'swipeRefreshLayout'");
-    target.swipeRefreshLayout = finder.castView(view, 2131624096, "field 'swipeRefreshLayout'");
-    view = finder.findRequiredView(source, 2131624097, "field 'listView'");
-    target.listView = finder.castView(view, 2131624097, "field 'listView'");
+    view = finder.findRequiredView(source, 2131624096, "field 'coordinatorLayout'");
+    target.coordinatorLayout = finder.castView(view, 2131624096, "field 'coordinatorLayout'");
+    view = finder.findRequiredView(source, 2131624097, "field 'swipeRefreshLayout'");
+    target.swipeRefreshLayout = finder.castView(view, 2131624097, "field 'swipeRefreshLayout'");
+    view = finder.findRequiredView(source, 2131624098, "field 'listView'");
+    target.listView = finder.castView(view, 2131624098, "field 'listView'");
   }
 
   @Override public void unbind(T target) {

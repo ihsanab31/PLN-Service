@@ -48,6 +48,10 @@
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\layout\\abc_search_view.xml"
     },
     {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "E:\\PLNService\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
@@ -74,10 +78,6 @@
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_menu.xml",
-        "source": "E:\\PLNService\\app\\src\\main\\res\\layout\\activity_menu.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",

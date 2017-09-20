@@ -20,9 +20,9 @@ public final class R {
         public static final int none = 0x7f0e0018;
         public static final int normal = 0x7f0e001a;
         public static final int radio = 0x7f0e0067;
-        public static final int text = 0x7f0e00ac;
-        public static final int text2 = 0x7f0e00d7;
-        public static final int toolbar = 0x7f0e008e;
+        public static final int text = 0x7f0e00ad;
+        public static final int text2 = 0x7f0e00df;
+        public static final int toolbar = 0x7f0e0083;
         public static final int wrap_content = 0x7f0e002d;
     }
     public static final class integer {

@@ -62,7 +62,7 @@ public class RegisterActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    private void register(final String token, final int id) {
+    private void register() {
         final ProgressDialog loading = new ProgressDialog(this);
         loading.setMessage("Proses Registrasi");
         loading.show();
@@ -122,8 +122,6 @@ public class RegisterActivity extends AppCompatActivity {
                 //membuat parameters
                 Map<String, String> params = new HashMap<String, String>();
                 //menambah parameter yang di kirim ke web servis
-                params.put(Constants.TAG_ID, String.valueOf(id));
-                params.put(Constants.TAG_TOKEN, token);
                 params.put(Constants.TAG_USERNAME, tamper.getText().toString().trim());
                 params.put(Constants.TAG_PASSWORD, password.getText().toString().trim());
                 //kembali ke parameters
@@ -143,7 +141,6 @@ public class RegisterActivity extends AppCompatActivity {
         //get token dari firebase
         if (upassword.getText().toString().matches(password.getText().toString())) {
             id_pel = tamper.getText().toString();
-            token = FirebaseInstanceId.getInstance().getToken();
             cekid(id_pel);
         } else {
             Snackbar bar = Snackbar
@@ -163,7 +160,7 @@ public class RegisterActivity extends AppCompatActivity {
                     public void onResponse(String response) {
                         //If we are getting success from server
                         if (response.contains(Constants.LOGIN_SUCCESS)) {
-                            register(token, id);
+                            register();
                             progressDialog.dismiss();
                         } else {
                             //Displaying an error message on toast

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="@color/biru"
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="wrap_content"
@@ -21,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/title1"
-            android:textColor="@color/hitam"
+            android:textColor="@color/putih"
             android:textSize="@dimen/text30dp"
             android:textStyle="bold" />
 
@@ -34,7 +35,7 @@
             android:paddingRight="@dimen/padding20dp"
             android:text="@string/desikripsi1"
             android:textAlignment="center"
-            android:textColor="@color/hitam"
+            android:textColor="@color/putih"
             android:textSize="@dimen/text16dp" />
 
     </LinearLayout>

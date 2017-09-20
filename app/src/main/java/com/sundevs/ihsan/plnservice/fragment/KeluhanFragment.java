@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.support.annotation.IdRes;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
@@ -74,7 +74,9 @@ public class KeluhanFragment extends Fragment {
     public KeluhanFragment() {
         // Required empty public constructor
     }
-
+    public static KeluhanFragment newInstance(){
+        return new KeluhanFragment();
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

@@ -2075,6 +2075,27 @@
                         "endOffset": 248
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 290,
+                    "startColumn": 4,
+                    "startOffset": 21165,
+                    "endLine": 291,
+                    "endColumn": 10,
+                    "endOffset": 21250
+                },
+                "from": {
+                    "file": "C:\\Users\\iihsa\\.android\\build-cache\\8c71f7130fc7d29ffceef5e307c19d4b59f16a0e\\output\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 3,
+                        "endColumn": 10,
+                        "endOffset": 140
+                    }
+                }
             }
         ]
     }

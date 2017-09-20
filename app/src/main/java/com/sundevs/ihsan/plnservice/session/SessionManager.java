@@ -10,7 +10,7 @@ import android.content.SharedPreferences.Editor;
 
 
 import com.sundevs.ihsan.plnservice.view.LoginActivity;
-import com.sundevs.ihsan.plnservice.view.MenuActivity;
+import com.sundevs.ihsan.plnservice.view.MainActivity;
 
 import java.util.HashMap;
 
@@ -77,7 +77,7 @@ import java.util.HashMap;
             public void checkLogin() {         // Cek login status
                 if (!this.isLoggedIn()) {
                     // jika user tidak login maka akan d arahakan ke Login Activity
-                    Intent i = new Intent(_context, MenuActivity.class);
+                    Intent i = new Intent(_context, MainActivity.class);
                     // tutup semua Activities
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     // tambahkan Flag baru untuk memulai Activity baru

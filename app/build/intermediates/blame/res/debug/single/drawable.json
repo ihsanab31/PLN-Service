@@ -1,9 +1,5 @@
 [
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\4d86ae715536af4e8098b8f87b4e0655a683f17d\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
-    },
-    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
@@ -20,12 +16,12 @@
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notifikasi.png",
-        "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\notifikasi.png"
-    },
-    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notifikasi.png",
+        "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\notifikasi.png"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
@@ -36,36 +32,24 @@
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_bg_edit_2.xml",
         "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\selector_bg_edit_2.xml"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\a6e74fb1d5a2c826c0761ae777efab8410d009b9\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\4d86ae715536af4e8098b8f87b4e0655a683f17d\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_input_cursor.xml",
         "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\bg_input_cursor.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\4d86ae715536af4e8098b8f87b4e0655a683f17d\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
-    },
-    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\4d86ae715536af4e8098b8f87b4e0655a683f17d\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
@@ -96,10 +80,6 @@
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\a6e74fb1d5a2c826c0761ae777efab8410d009b9\\output\\res\\drawable\\design_password_eye.xml"
     },
@@ -108,12 +88,16 @@
         "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logotoolbar.png",
-        "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\logotoolbar.png"
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_input_cursor_2.xml",
         "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\bg_input_cursor_2.xml"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logotoolbar.png",
+        "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\logotoolbar.png"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shapebirukecil.xml",
@@ -140,6 +124,10 @@
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\leak_canary_toast_background.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\8c71f7130fc7d29ffceef5e307c19d4b59f16a0e\\output\\res\\drawable\\leak_canary_toast_background.xml"
+    },
+    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
@@ -152,10 +140,6 @@
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\4d86ae715536af4e8098b8f87b4e0655a683f17d\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
-    },
-    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\keluhan.png",
         "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\keluhan.png"
     },
@@ -164,12 +148,12 @@
         "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\selector_bg_edit.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_kotak.xml",
         "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\btn_kotak.xml"
+    },
+    {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
@@ -180,16 +164,12 @@
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\4d86ae715536af4e8098b8f87b4e0655a683f17d\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
@@ -208,20 +188,12 @@
         "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\btn_shapeabu.xml"
     },
     {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\4d86ae715536af4e8098b8f87b4e0655a683f17d\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
-    },
-    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\iihsa\\.android\\build-cache\\723094bf4db6a537036a9ace9a6ce8f4e182c3a3\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\state_list_animator_z.xml",
         "source": "E:\\PLNService\\app\\src\\main\\res\\drawable\\state_list_animator_z.xml"
-    },
-    {
-        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\iihsa\\.android\\build-cache\\4d86ae715536af4e8098b8f87b4e0655a683f17d\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",

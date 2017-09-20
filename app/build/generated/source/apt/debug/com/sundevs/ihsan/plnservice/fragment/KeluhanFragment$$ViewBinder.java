@@ -8,14 +8,14 @@ import butterknife.ButterKnife.ViewBinder;
 public class KeluhanFragment$$ViewBinder<T extends com.sundevs.ihsan.plnservice.fragment.KeluhanFragment> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131624098, "field 'coordinatorLayout'");
-    target.coordinatorLayout = finder.castView(view, 2131624098, "field 'coordinatorLayout'");
-    view = finder.findRequiredView(source, 2131624100, "field 'radioGroup'");
-    target.radioGroup = finder.castView(view, 2131624100, "field 'radioGroup'");
-    view = finder.findRequiredView(source, 2131624105, "field 'lainnya'");
-    target.lainnya = finder.castView(view, 2131624105, "field 'lainnya'");
-    view = finder.findRequiredView(source, 2131624107, "field 'imageView' and method 'ambilfoto'");
-    target.imageView = finder.castView(view, 2131624107, "field 'imageView'");
+    view = finder.findRequiredView(source, 2131624099, "field 'coordinatorLayout'");
+    target.coordinatorLayout = finder.castView(view, 2131624099, "field 'coordinatorLayout'");
+    view = finder.findRequiredView(source, 2131624101, "field 'radioGroup'");
+    target.radioGroup = finder.castView(view, 2131624101, "field 'radioGroup'");
+    view = finder.findRequiredView(source, 2131624106, "field 'lainnya'");
+    target.lainnya = finder.castView(view, 2131624106, "field 'lainnya'");
+    view = finder.findRequiredView(source, 2131624108, "field 'imageView' and method 'ambilfoto'");
+    target.imageView = finder.castView(view, 2131624108, "field 'imageView'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -24,7 +24,7 @@ public class KeluhanFragment$$ViewBinder<T extends com.sundevs.ihsan.plnservice.
           target.ambilfoto();
         }
       });
-    view = finder.findRequiredView(source, 2131624109, "method 'ajukankeluhan'");
+    view = finder.findRequiredView(source, 2131624110, "method 'ajukankeluhan'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(

@@ -3,10 +3,10 @@ package com.sundevs.ihsan.plnservice.fragment;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.app.Fragment;
 import android.os.Handler;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -65,7 +65,9 @@ public class HistoryFragment extends Fragment implements SwipeRefreshLayout.OnRe
     public HistoryFragment() {
         // Required empty public constructor
     }
-
+    public static HistoryFragment newInstance(){
+        return new HistoryFragment();
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

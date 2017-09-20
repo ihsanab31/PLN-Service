@@ -56,4 +56,6 @@
     <string name="nohp">081573686769</string>
     <string name="tentang">Tentang dan No HP</string>
     <string name="namapelanggan">Nama Pelanggan</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
 </resources>

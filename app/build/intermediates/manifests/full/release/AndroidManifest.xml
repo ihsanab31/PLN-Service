@@ -68,7 +68,7 @@
                 android:value=".view.LoginActivity" />
         </activity>
         <activity
-            android:name="com.sundevs.ihsan.plnservice.view.MenuActivity"
+            android:name="com.sundevs.ihsan.plnservice.view.MainActivity"
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>

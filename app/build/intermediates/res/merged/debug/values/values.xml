@@ -774,6 +774,8 @@
     <string name="desikripsi1">Jika terjadi gangguan silahkan menghubungi kami.</string>
     <string name="desikripsi2">Jika anda pindah rumah silahkan lengkapi alamat anda. </string>
     <string name="desikripsi3">Jika menerima notifikasi tanda keluhan anda sudah kami proses.</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
     <string name="firebase_database_url" translatable="false">https://pln-service.firebaseio.com</string>
     <string name="gangguan">Gangguan</string>
     <string name="gcm_defaultSenderId" translatable="false">881988532525</string>
@@ -788,6 +790,29 @@
     <string name="kondisi">Pilih Kondisi Saat Terjadi Gangguan</string>
     <string name="kotak">Tekan Kotak Untuk Mengambil Gambar</string>
     <string name="kwh">Gangguan KWH Meter</string>
+    <string name="leak_canary_analysis_failed">Leak analysis failed</string>
+    <string name="leak_canary_class_has_leaked">%1$s leaked %2$s</string>
+    <string name="leak_canary_could_not_save_text">LeakCanary was unable to save the analysis result.</string>
+    <string name="leak_canary_could_not_save_title">Could not save result.</string>
+    <string name="leak_canary_delete">Delete</string>
+    <string name="leak_canary_delete_all">Delete all</string>
+    <string name="leak_canary_delete_all_leaks_title">Are you sure you want to delete all leaks?</string>
+    <string name="leak_canary_display_activity_label">Leaks</string>
+    <string name="leak_canary_excluded_row">[Excluded] %s</string>
+    <string name="leak_canary_failure_report">"Please report this failure to http://github.com/square/leakcanary\n"</string>
+    <string name="leak_canary_leak_excluded">[Excluded] %1$s leaked %2$s</string>
+    <string name="leak_canary_leak_list_title">Leaks in %s</string>
+    <string name="leak_canary_no_leak_text">The GC was being lazy.</string>
+    <string name="leak_canary_no_leak_title">No leak found</string>
+    <string name="leak_canary_notification_message">Click for more details</string>
+    <string name="leak_canary_permission_not_granted">Please grant external storage permission, otherwise memory leaks will not be detected.</string>
+    <string name="leak_canary_permission_notification_text">Click to enable storage permission for %s.</string>
+    <string name="leak_canary_permission_notification_title">Leak detected, need permission</string>
+    <string name="leak_canary_share_heap_dump">Share heap dump</string>
+    <string name="leak_canary_share_leak">Share info</string>
+    <string name="leak_canary_share_with">Share with…</string>
+    <string name="leak_canary_storage_permission_activity_label">Storage permission</string>
+    <string name="leak_canary_toast_heap_dump">Dumping memory, app will freeze. Brrrr.</string>
     <string name="login">Masuk</string>
     <string name="loncer">MCB Loncer</string>
     <string name="lpb">LPB Muncul Tanda Periksa</string>
@@ -2378,4 +2403,13 @@
         <item name="passwordToggleTint">@color/design_tint_password_toggle</item>
         <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
     </style>
+    <style name="leak_canary_LeakCanary.Base" parent="android:Theme.Holo">
+  </style>
+    <style name="leak_canary_Theme.Transparent" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
 </resources>

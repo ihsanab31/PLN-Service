@@ -4,6 +4,10 @@
         "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\profile_drawer.png"
     },
     {
+        "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\edit.png",
+        "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\edit.png"
+    },
+    {
         "merged": "E:\\PLNService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\history_drawer.png",
         "source": "E:\\PLNService\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\history_drawer.png"
     },
