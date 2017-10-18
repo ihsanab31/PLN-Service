@@ -110,7 +110,7 @@ public class MainActivity extends BaseActivity  implements NavigationView.OnNavi
                 break;
             case R.id.keluar:
                 fragment = KeluhanFragment.newInstance();
-                delete(id_pelanggan);
+                logout(id_pelanggan);
                 break;
             default:
                 fragment = KeluhanFragment.newInstance();
@@ -171,6 +171,7 @@ public class MainActivity extends BaseActivity  implements NavigationView.OnNavi
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         return false;
     }
+
     private void logoutUser() {
         session.logoutUser();
         db.deleteUsers();
@@ -179,7 +180,7 @@ public class MainActivity extends BaseActivity  implements NavigationView.OnNavi
         finish();
     }
 
-    private void delete(final String idx){
+    private void logout(final String idx){
         final ProgressDialog loading = new ProgressDialog(this);
         loading.setMessage("Proses Logout ....");
         loading.show();

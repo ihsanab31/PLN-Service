@@ -73,7 +73,7 @@ public class LoginActivity extends AppCompatActivity {
     @OnClick(R.id.masuk)
     void masuk() {
         token = FirebaseInstanceId.getInstance().getToken();
-        simpan(tamper.getText().toString(), pass.getText().toString());
+        cek(tamper.getText().toString(), pass.getText().toString());
 
 
     }
@@ -83,7 +83,7 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), RegisterActivity.class));
     }
 
-    private void simpan(final String id_pel, final String password) {
+    private void cek(final String id_pel, final String password) {
         final ProgressDialog loading = new ProgressDialog(this);
         loading.setMessage("Cek Biodata");
         loading.show();
@@ -114,7 +114,7 @@ public class LoginActivity extends AppCompatActivity {
                         editor.commit();
                         loading.dismiss();
                         session.createLoginSession(id_pel, password);
-                        userlogin(token, "");
+                        login(token, "");
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                     } else {
                         Snackbar snacka = Snackbar.make(coordinatorLayout, jObj.getString(Constants.TAG_MESSAGE), Snackbar.LENGTH_LONG);
@@ -178,7 +178,7 @@ public class LoginActivity extends AppCompatActivity {
         AppController.getInstance().addToRequestQueue(strReq, Constants.tag_json_obj);
     }
 
-    private void userlogin(final String token1, final String id) {
+    private void login(final String token1, final String id) {
         final ProgressDialog loading = new ProgressDialog(this);
         loading.setMessage("Proses Login...");
         loading.show();
