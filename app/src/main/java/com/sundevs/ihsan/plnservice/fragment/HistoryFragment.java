@@ -134,21 +134,27 @@ public class HistoryFragment extends Fragment implements SwipeRefreshLayout.OnRe
                 if (volleyError instanceof NetworkError){
                     Snackbar snacka = Snackbar.make(coordinatorLayout, R.string.networkerror, Snackbar.LENGTH_LONG);
                     snacka.show();
+                    swipeRefreshLayout.setRefreshing(false);
                 } else if (volleyError instanceof ServerError){
                     Snackbar snackb = Snackbar.make(coordinatorLayout, R.string.ServerError, Snackbar.LENGTH_LONG);
                     snackb.show();
+                    swipeRefreshLayout.setRefreshing(false);
                 } else if (volleyError instanceof AuthFailureError){
                     Snackbar snackc = Snackbar.make(coordinatorLayout, R.string.AuthFailureError, Snackbar.LENGTH_LONG);
                     snackc.show();
+                    swipeRefreshLayout.setRefreshing(false);
                 } else if (volleyError instanceof ParseError){
                     Snackbar snackd = Snackbar.make(coordinatorLayout, R.string.ParseError, Snackbar.LENGTH_LONG);
                     snackd.show();
+                    swipeRefreshLayout.setRefreshing(false);
                 } else if (volleyError instanceof NoConnectionError){
                     Snackbar snacke = Snackbar.make(coordinatorLayout, R.string.NoConnectionError, Snackbar.LENGTH_LONG);
                     snacke.show();
+                    swipeRefreshLayout.setRefreshing(false);
                 } else if (volleyError instanceof TimeoutError){
                     Snackbar snackf = Snackbar.make(coordinatorLayout, R.string.TimeoutError, Snackbar.LENGTH_LONG);
                     snackf.show();
+                    swipeRefreshLayout.setRefreshing(false);
                 }
                 swipeRefreshLayout.setRefreshing(false);
             }

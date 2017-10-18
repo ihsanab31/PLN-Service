@@ -16,5 +16,7 @@ public class URLConfig {
     public static final String URL_PROFILE = "http://belajarwelah.hol.es/profil.php";
     public static final String URL_HISTORY = "http://belajarwelah.hol.es/history.php";
     public static final String URL_BERANDA = "http://belajarwelah.hol.es/";
+    public static final String URL_LOGOUT = "http://belajarwelah.hol.es/logoutandroid.php";
     public static final String LOGIN_SUCCESS = "success";
+
 }

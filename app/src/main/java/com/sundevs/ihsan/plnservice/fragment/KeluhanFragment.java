@@ -388,8 +388,10 @@ public class KeluhanFragment extends Fragment {
                                 date ="";
                                 pilihan = "";
                                 lainnya.setText("");
+                                loading.dismiss();
                             } else {
                                 Toast.makeText(getActivity(), jObj.getString(Constants.TAG_MESSAGE), Toast.LENGTH_LONG).show();
+                                loading.dismiss();
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -405,22 +407,29 @@ public class KeluhanFragment extends Fragment {
                         if (volleyError instanceof NetworkError){
                             Snackbar snacka = Snackbar.make(coordinatorLayout, R.string.networkerror, Snackbar.LENGTH_LONG);
                             snacka.show();
+                            loading.dismiss();
                         } else if (volleyError instanceof ServerError){
                             Snackbar snackb = Snackbar.make(coordinatorLayout, R.string.ServerError, Snackbar.LENGTH_LONG);
                             snackb.show();
+                            loading.dismiss();
                         } else if (volleyError instanceof AuthFailureError){
                             Snackbar snackc = Snackbar.make(coordinatorLayout, R.string.AuthFailureError, Snackbar.LENGTH_LONG);
                             snackc.show();
+                            loading.dismiss();
                         } else if (volleyError instanceof ParseError){
                             Snackbar snackd = Snackbar.make(coordinatorLayout, R.string.ParseError, Snackbar.LENGTH_LONG);
                             snackd.show();
+                            loading.dismiss();
                         } else if (volleyError instanceof NoConnectionError){
                             Snackbar snacke = Snackbar.make(coordinatorLayout, R.string.NoConnectionError, Snackbar.LENGTH_LONG);
                             snacke.show();
+                            loading.dismiss();
                         } else if (volleyError instanceof TimeoutError){
                             Snackbar snackf = Snackbar.make(coordinatorLayout, R.string.TimeoutError, Snackbar.LENGTH_LONG);
                             snackf.show();
+                            loading.dismiss();
                         }
+                        loading.dismiss();
                     }
                 }) {
             @Override
