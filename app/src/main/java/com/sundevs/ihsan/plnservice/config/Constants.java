@@ -20,6 +20,7 @@ public class Constants {
     public static final String TAG_KELUHAN="keluhan";
     public static final String TAG_TKEL="t_kel";
     public static final String TAG_IMAGES="image";
+    public static final String TAG_STATUS="status";
 
     //tag Pesan
     public static final String TAG_MESSAGE="message";

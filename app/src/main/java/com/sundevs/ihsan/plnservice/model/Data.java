@@ -6,11 +6,11 @@ package com.sundevs.ihsan.plnservice.model;
 
 public class Data {
     private  String id_ber, judul, value, images, date;
-    private  String id_kel, id_pel, alamat, waktu, tanggal, keluhan, t_kel, gambar;
+    private  String id_kel, id_pel, alamat, waktu, tanggal, keluhan, t_kel, gambar, status;
     public Data (){
 
     }
-    public Data(String id_ber, String judul, String value, String images, String date, String id_kel, String id_pel, String alamat, String waktu, String tanggal, String keluhan, String t_kel, String gambar){
+    public Data(String id_ber, String judul, String value, String images, String date, String id_kel, String id_pel, String alamat, String waktu, String tanggal, String keluhan, String t_kel, String gambar, String status){
         this.id_ber = id_ber;
         this.judul = judul;
         this.value= value;
@@ -24,6 +24,7 @@ public class Data {
         this.keluhan=keluhan;
         this.t_kel=t_kel;
         this.gambar=gambar;
+        this.status = status;
     }
 
     public void setDate(String date) {
@@ -129,4 +130,13 @@ public class Data {
     public String getGambar() {
         return gambar;
     }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getStatus() {
+        return status;
+    }
 }
+

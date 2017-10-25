@@ -58,11 +58,13 @@ public class HistoryAdapter extends BaseAdapter {
         TextView waktu = (TextView)convertView.findViewById(R.id.jam);
         TextView tanggal= (TextView)convertView.findViewById(R.id.tnggl);
         TextView keluhan= (TextView)convertView.findViewById(R.id.keluhan);
+        TextView status= (TextView)convertView.findViewById(R.id.status);
         Data data = itemHistory.get(position);
         imageView.setImageUrl(URLConfig.URL_BERANDA+data.getGambar(), imageLoader);
         waktu.setText(data.getWaktu());
         tanggal.setText(data.getTanggal());
         keluhan.setText(data.getKeluhan());
+        status.setText(data.getStatus());
         return convertView;
     }
 }

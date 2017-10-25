@@ -66,6 +66,7 @@ public class LoginActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         getSupportActionBar().setElevation(0);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        session = new SessionManager(getApplicationContext());
 
     }
 

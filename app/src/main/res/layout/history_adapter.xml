@@ -46,6 +46,13 @@
                     android:text="@string/keluhan"
                     android:textColor="@color/hitam"
                     android:textSize="15dp" />
+                <com.sundevs.ihsan.plnservice.util.FontLatoSemiBold
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/keluhan"
+                    android:textColor="@color/hitam"
+                    android:textSize="15dp" />
 
             </LinearLayout>
         </LinearLayout>

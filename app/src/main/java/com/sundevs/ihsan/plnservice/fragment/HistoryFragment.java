@@ -1,6 +1,7 @@
 package com.sundevs.ihsan.plnservice.fragment;
 
 
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
@@ -116,6 +117,7 @@ public class HistoryFragment extends Fragment implements SwipeRefreshLayout.OnRe
                         item.setTanggal(obj.getString(Constants.TAG_TANGGAL));
                         item.setKeluhan(obj.getString(Constants.TAG_KELUHAN));
                         item.setGambar(obj.getString(Constants.TAG_IMAGES));
+                        item.setStatus(obj.getString(Constants.TAG_STATUS));
                         // menambah item ke array
                         listItemHistory.add(item);
                     } catch (JSONException e) {
