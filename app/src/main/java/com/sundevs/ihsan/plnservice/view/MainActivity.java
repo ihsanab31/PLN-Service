@@ -163,8 +163,8 @@ public class MainActivity extends BaseActivity  implements NavigationView.OnNavi
 
     @Override
     public void onBackPressed() {
-        this.finish();
         super.onBackPressed();
+        finish();
     }
 
     @Override
@@ -235,4 +235,5 @@ public class MainActivity extends BaseActivity  implements NavigationView.OnNavi
 
         AppController.getInstance().addToRequestQueue(strReq, Constants.tag_json_obj);
     }
+
 }

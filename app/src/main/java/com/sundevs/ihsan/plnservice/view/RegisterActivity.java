@@ -7,6 +7,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.WindowManager;
 import android.widget.EditText;
 
@@ -40,8 +41,7 @@ import butterknife.OnClick;
 
 public class RegisterActivity extends AppCompatActivity {
     private static final String TAG = RegisterActivity.class.getSimpleName();
-    int success, id;
-    String token;
+    int success;
     @Bind(R.id.no_tamper_register)
     EditText tamper;
     @Bind(R.id.password_register)
@@ -60,6 +60,8 @@ public class RegisterActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN); //full screen android
         ButterKnife.bind(this);
+        getSupportActionBar().setElevation(0);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     private void register() {
@@ -234,9 +236,22 @@ public class RegisterActivity extends AppCompatActivity {
         super.onPause();
     }
 
+
     public void kosong() {
         tamper.setText("");
         password.setText("");
         upassword.setText("");
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == android.R.id.home){
+            finish();
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

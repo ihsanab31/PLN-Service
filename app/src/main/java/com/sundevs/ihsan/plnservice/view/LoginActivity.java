@@ -64,10 +64,9 @@ public class LoginActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN); //full screen android
         ButterKnife.bind(this);
-        session = new SessionManager(getApplicationContext());
-        if (session.isLoggedIn()) {
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));
-        }
+        getSupportActionBar().setElevation(0);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
     @OnClick(R.id.masuk)

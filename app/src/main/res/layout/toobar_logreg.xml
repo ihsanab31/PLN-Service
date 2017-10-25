@@ -18,7 +18,8 @@
                 android:layout_width="@dimen/ukuran_gambar200dp"
                 android:layout_height="@dimen/desc_padding40dp"
                 android:gravity="center"
-                android:src="@drawable/logotoolbar" />
+                android:src="@drawable/logotoolbar"
+                android:paddingRight="@dimen/dots_margin_bottom20dp"/>
 
         </LinearLayout>
 

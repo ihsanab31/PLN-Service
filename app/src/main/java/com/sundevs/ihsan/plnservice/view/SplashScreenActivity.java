@@ -11,6 +11,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.sundevs.ihsan.plnservice.R;
+import com.sundevs.ihsan.plnservice.session.SessionManager;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -21,6 +22,7 @@ public class SplashScreenActivity extends AppCompatActivity implements Animation
     @Bind(R.id.imageView)
     ImageView imageView;
     Animation animBlink;
+    SessionManager session;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +32,7 @@ public class SplashScreenActivity extends AppCompatActivity implements Animation
         setContentView(R.layout.activity_splash_screen);
         // load the animation
         ButterKnife.bind(this);
+        session = new SessionManager(getApplicationContext());
         animBlink = AnimationUtils.loadAnimation(getApplicationContext(),
                 R.anim.blink);
         imageView.startAnimation(animBlink);
@@ -37,8 +40,14 @@ public class SplashScreenActivity extends AppCompatActivity implements Animation
             @Override
             public void run() {
                 // TODO Auto-generated method stub
+
+                if (session.isLoggedIn()) {
+                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                }else {
                     startActivity(new Intent(getApplicationContext(), SliderActivity.class));
                     this.finish();
+                }
+
 
             }
 
