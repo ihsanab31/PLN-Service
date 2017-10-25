@@ -1,10 +1,12 @@
 package com.sundevs.ihsan.plnservice.view;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
+import android.support.v4.content.IntentCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -115,7 +117,10 @@ public class LoginActivity extends AppCompatActivity {
                         loading.dismiss();
                         session.createLoginSession(id_pel, password);
                         login(token, "");
-                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | IntentCompat.FLAG_ACTIVITY_CLEAR_TASK);
+                        startActivity(intent);
+
                     } else {
                         Snackbar snacka = Snackbar.make(coordinatorLayout, jObj.getString(Constants.TAG_MESSAGE), Snackbar.LENGTH_LONG);
                         snacka.show();
