@@ -3,7 +3,6 @@ package com.sundevs.ihsan.plnservice.view;
 import android.app.ProgressDialog;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -23,34 +22,30 @@ import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.google.firebase.iid.FirebaseInstanceId;
 import com.sundevs.ihsan.plnservice.R;
 import com.sundevs.ihsan.plnservice.config.Constants;
 import com.sundevs.ihsan.plnservice.config.URLConfig;
 import com.sundevs.ihsan.plnservice.controller.AppController;
-
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.HashMap;
 import java.util.Map;
-
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class RegisterActivity extends AppCompatActivity {
     private static final String TAG = RegisterActivity.class.getSimpleName();
     int success;
-    @Bind(R.id.no_tamper_register)
+    @BindView(R.id.no_tamper_register)
     EditText tamper;
-    @Bind(R.id.password_register)
+    @BindView(R.id.password_register)
     EditText password;
-    @Bind(R.id.ulpassword_register)
+    @BindView(R.id.ulpassword_register)
     EditText upassword;
     String id_pel;
     String tag_json_obj = "json_obj_req";
-    @Bind(R.id.coordintor)
+    @BindView(R.id.coordintor)
     CoordinatorLayout coordinatorLayout;
 
     @Override

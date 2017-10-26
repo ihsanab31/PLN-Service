@@ -1,6 +1,5 @@
 package com.sundevs.ihsan.plnservice.view;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -38,17 +37,17 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class LoginActivity extends AppCompatActivity {
     SharedPreferences preferences;
-    @Bind(R.id.coordintorLayout)
+    @BindView(R.id.coordintorLayout)
     CoordinatorLayout coordinatorLayout;
-    @Bind(R.id.no_tamper)
+    @BindView(R.id.no_tamper)
     EditText tamper;
-    @Bind(R.id.password)
+    @BindView(R.id.password)
     EditText pass;
     SessionManager session;
     int success, id;

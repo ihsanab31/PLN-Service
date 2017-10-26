@@ -48,7 +48,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -58,13 +58,13 @@ public class KeluhanFragment extends Fragment {
     AlertDialog.Builder dialog;
     LayoutInflater inflater;
     View dialogView;
-    @Bind(R.id.coor)
+    @BindView(R.id.coor)
     CoordinatorLayout coordinatorLayout;
-    @Bind(R.id.rdbtn)
+    @BindView(R.id.rdbtn)
     RadioGroup radioGroup;
-    @Bind(R.id.kon)
+    @BindView(R.id.kon)
     EditText lainnya;
-    @Bind(R.id.foto)
+    @BindView(R.id.foto)
     ImageView imageView;
     Bitmap bitmap;
     String kondisi = "", alamat = "", id_pelanggan = "", date = "", time = "", pilihan = "",hasil="";

@@ -13,13 +13,13 @@ import android.widget.ImageView;
 import com.sundevs.ihsan.plnservice.R;
 import com.sundevs.ihsan.plnservice.session.SessionManager;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class SplashScreenActivity extends AppCompatActivity implements Animation.AnimationListener {
     private static int intervalsplash = 3000;
     // Animation
-    @Bind(R.id.imageView)
+    @BindView(R.id.imageView)
     ImageView imageView;
     Animation animBlink;
     SessionManager session;

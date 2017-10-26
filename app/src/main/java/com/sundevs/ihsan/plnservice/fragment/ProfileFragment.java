@@ -38,7 +38,7 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -46,13 +46,13 @@ import butterknife.OnClick;
 public class ProfileFragment extends Fragment {
     View rootView;
     SharedPreferences preference;
-    @Bind(R.id.nama)
+    @BindView(R.id.nama)
     TextView txtnama;
-    @Bind(R.id.alamat)
+    @BindView(R.id.alamat)
     TextView txtalamat;
-    @Bind(R.id.nohp_prof)
+    @BindView(R.id.nohp_prof)
     TextView txtnohp;
-    @Bind(R.id.coordinatorLayout)
+    @BindView(R.id.coordinatorLayout)
     CoordinatorLayout coordinatorLayout;
     AlertDialog.Builder dialog;
     LayoutInflater inflater;

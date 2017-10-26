@@ -1,7 +1,6 @@
 package com.sundevs.ihsan.plnservice.fragment;
 
 
-import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
@@ -9,15 +8,11 @@ import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkError;
@@ -28,7 +23,6 @@ import com.android.volley.Response;
 import com.android.volley.ServerError;
 import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
-import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.StringRequest;
 import com.sundevs.ihsan.plnservice.R;
 import com.sundevs.ihsan.plnservice.adapter.HistoryAdapter;
@@ -46,7 +40,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class HistoryFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener {
@@ -55,11 +49,11 @@ public class HistoryFragment extends Fragment implements SwipeRefreshLayout.OnRe
     Handler handler;
     Runnable runnable;
     HistoryAdapter historyAdapter;
-    @Bind(R.id.coodinat)
+    @BindView(R.id.coodinat)
     CoordinatorLayout coordinatorLayout;
-    @Bind(R.id.swipeRefresh)
+    @BindView(R.id.swipeRefresh)
     SwipeRefreshLayout swipeRefreshLayout;
-    @Bind(R.id.list_history)
+    @BindView(R.id.list_history)
     ListView listView;
     private static final String TAGG = HistoryFragment.class.getSimpleName();
     List<Data> listItemHistory=new ArrayList<Data>();
