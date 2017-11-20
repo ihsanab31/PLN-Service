@@ -189,6 +189,7 @@ public class KeluhanFragment extends Fragment {
             hasil = "Tidak Termasuk Klafikasi";
             date =new SimpleDateFormat("yyyy-MM-dd").format(new Date());
             time =new SimpleDateFormat("h:m:s").format(new Date());
+            bobot = 0;
             uploadData();
             imageView.setImageBitmap(null);
         }
@@ -443,6 +444,7 @@ public class KeluhanFragment extends Fragment {
                 params.put(Constants.TAG_WAKTU, time);
                 params.put(Constants.TAG_TANGGAL, date);
                 params.put(Constants.TAG_KELUHAN, pilihan);
+                params.put("bobot", String.valueOf(bobot));
                 params.put(Constants.TAG_TKEL, hasil);
                 params.put(Constants.TAG_IMAGES, getStringImage(bitmap));
                 //kembali ke parameters

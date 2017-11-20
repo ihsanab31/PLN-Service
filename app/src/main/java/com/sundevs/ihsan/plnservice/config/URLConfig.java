@@ -11,7 +11,7 @@ public class URLConfig {
     public static final String PROMOSI_URL = "http://belajarwelah.hol.es/promosi.php";
     public static final String CEKID_URL = "http://belajarwelah.hol.es/cekid.php";
     public static final String URL_GAMBAR = "http://belajarwelah.hol.es/admin/";
-    public static final String URL_KELUHAN = "http://belajarwelah.hol.es/keluhan.php";
+    public static final String URL_KELUHAN = "http://belajarwelah.hol.es/send.php";
     public static final String URL_SAVELOGIN = "http://belajarwelah.hol.es/savelogin.php";
     public static final String URL_PROFILE = "http://belajarwelah.hol.es/profil.php";
     public static final String URL_HISTORY = "http://belajarwelah.hol.es/history.php";
