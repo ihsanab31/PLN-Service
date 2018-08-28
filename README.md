@@ -3,7 +3,7 @@ Adalah aplikasi untuk pelanggan melaporkan gangguan yang telah terjadi, untuk me
 
 
 Aplikasi ini dikembangkan oleh Sundevs (Sima Universal Developers).
-  Ihsan Abdurahman (CTO) Android Developer
+  Ihsan Abdurahman (CTO)
   M. Denis Juliansyah (CCO)
   Zakyulfikri Ali (CEO)
-  Adriyana Putri P (CTO) Web Developer
+  Adriyana Putra P  Web Developer
